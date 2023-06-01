@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #F1F6F9;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 300;
+  color: #394867;
+  line-height: normal;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #212A3E;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: 'Courier New', Courier, monospace;
+  color: #212A3E;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #212A3E;
+}
+
+a:hover {
+  color: #9BA4B5;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+i:hover {
+  color: #9BA4B5;
+}
+
+.container {
+  margin: 40px auto;
+  width: 700px;
+}
+
+.card {
+  background-color: white;                         /* White background */
+  padding: 40px;
+  margin: 20px 0px;                            /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: #394867;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.profile_image {
+  border-radius: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
